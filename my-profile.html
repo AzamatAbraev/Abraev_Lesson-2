@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me</title>
+  
+  <style>
+  * {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  border-width: 2px;
+  border-color: white;
+}
+
+.left-section {
+  width: 100px;
+  margin-left: 30px;
+}
+
+.picture-button {
+  height: 54px;
+  width: 54px;
+  border-radius: 27px;
+  border-style: solid;
+  border: none;
+  cursor: pointer;
+}
+
+
+.profile-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  font-family: arial;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.right-section {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://cdn.shopify.com/s/files/1/1756/5057/articles/songs-that-mention-coffee.jpg?v=1563413186);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-page-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 150px;
+}
+
+.name-pic {
+  font-family: arial;
+  font-size: 20px;
+  color: orangered;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description-pic {
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+}
+
+.div-description-pic {
+  width: 520px;
+  margin-top: 20px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.title-personal-info {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+p {
+  font-family: arial;
+}
+
+.credentials-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.education-pic {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+li {
+  font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  line-height: 18px;
+  margin-top: 15px;
+  margin-left: 15px; 
+}
+
+.personal-information {
+  background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/black-paper-background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title-personal-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.achievements-pic {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+
+.contact-text {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.instagram-button {
+  padding: 10px 80px;
+  font-size: 20px;
+  border-style: solid;
+  border: none;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.telegram-button {
+  padding: 10px 80px;
+  font-size: 20px;
+  border-style: solid;
+  border: none;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  opacity:0.7;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.contact {
+  background-image: url("https://img.freepik.com/free-photo/contact-us-communication-support-service-assistance-concept_53876-128103.jpg");
+}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="left-section">
+      <a href="https://t.me/AAB_Daily">
+        <button class="picture-button" target="_blank">
+          <img src="https://img.freepik.com/free-icon/user_318-563613.jpg" class="profile-picture">
+        </button>
+      </a>
+    </div>
+    <div class="middle-section">
+      <p class="header-text">
+        AAB Daily - Your English Learning Channel
+      </p>
+    </div>
+    <div class="right-section">
+      <nav>
+        <a>About Me</a>
+        <a>Personal Info</a>
+        <a>Contact</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="main-page">
+    <div class="about-me">
+      <img src="https://img.freepik.com/free-icon/user_318-159711.jpg?w=2000" alt="My-Picture" class="main-page-pic">
+      <p class="name-pic">
+        Azamat Abraev
+      </p>
+      <div class="div-description-pic">
+        <p class="description-pic">
+          An aspiring frontend developer with the vision of building a successful software which allows policy makers to assess
+          the impact of their previous actions before implementing new practices.</p>
+      </div>
+    </div>
+
+    <div class="personal-information">
+      <p class="title-personal-info">
+        Personal Information
+      </p>
+      <div class="credentials-info">
+        <div class="education">
+          <img src="https://img.freepik.com/premium-vector/education-icon-vector-illustartion-college-cap-graduate-hat-symbol-student-degree-sign_87543-11096.jpg" class="education-pic">
+          <ul>
+            <li>University: Westminster International University</li>
+            <li>Major: BSc in Business Informations Systems</li>
+            <li>GPA: over 70 (Dean's List)</li>
+            <li>Expected Graduation Year: 2026</li>
+          </ul>    
+        </div>
+
+        <div class="education">
+          <img
+            src="https://cdn3.vectorstock.com/i/1000x1000/53/17/work-experience-rubber-stamp-vector-13485317.jpg"
+            class="education-pic">
+          <ul>
+            <li>2 years of experience in teaching</li>
+            <li>1 year of experience in customer service</li>
+            <li>7 months of experience in logistics business </li>
+          </ul>
+        </div>
+        
+        <div class="education">
+          <img
+            src="https://www.pngitem.com/pimgs/m/72-724246_achievement-icon-transparent-hd-png-download.png"
+            class="achievements-pic">
+          <ul>
+            <li>Scholarship Recepient (100%)</li>
+            <li>Captain of Golden FC</li>
+            <li>Captain of Zakovat Team</li>
+            <li>IELTS 8.0 (4 times)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <p class="contact-text">
+        Follow Me On Social Media
+      </p>
+      <div class="buttons">
+        <a href="https://www.instagram.com/elonmusk/">
+          <button class="instagram-button">
+            Instagram
+          </button>
+        </a>
+        <a href="https://t.me/AAB_Daily">
+          <button class="telegram-button">
+            Telegram
+          </button>
+        </a>
+      </div>
+   </div>
+  </div>
+
+</body>
+</html>
